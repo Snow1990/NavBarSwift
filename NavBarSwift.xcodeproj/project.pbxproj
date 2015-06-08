@@ -13,6 +13,7 @@
 		87F182921B25285A000314B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F182911B25285A000314B5 /* Images.xcassets */; };
 		87F182951B25285A000314B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F182931B25285A000314B5 /* LaunchScreen.xib */; };
 		87F182A11B25285A000314B5 /* NavBarSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F182A01B25285A000314B5 /* NavBarSwiftTests.swift */; };
+		87F182AB1B252922000314B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F182AA1B252922000314B5 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		87F1829A1B25285A000314B5 /* NavBarSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavBarSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F1829F1B25285A000314B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F182A01B25285A000314B5 /* NavBarSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarSwiftTests.swift; sourceTree = "<group>"; };
+		87F182AA1B252922000314B5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,8 @@
 			children = (
 				87F1828A1B252859000314B5 /* AppDelegate.swift */,
 				87F1828C1B25285A000314B5 /* ViewController.swift */,
+				87F182AA1B252922000314B5 /* MainViewController.swift */,
 				87F1828E1B25285A000314B5 /* Main.storyboard */,
-				87F182911B25285A000314B5 /* Images.xcassets */,
-				87F182931B25285A000314B5 /* LaunchScreen.xib */,
 				87F182881B252859000314B5 /* Supporting Files */,
 			);
 			path = NavBarSwift;
@@ -90,6 +91,8 @@
 		87F182881B252859000314B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				87F182911B25285A000314B5 /* Images.xcassets */,
+				87F182931B25285A000314B5 /* LaunchScreen.xib */,
 				87F182891B252859000314B5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F182AB1B252922000314B5 /* MainViewController.swift in Sources */,
 				87F1828D1B25285A000314B5 /* ViewController.swift in Sources */,
 				87F1828B1B252859000314B5 /* AppDelegate.swift in Sources */,
 			);
